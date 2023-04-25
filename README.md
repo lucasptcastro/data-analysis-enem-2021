@@ -21,6 +21,9 @@
     <li>
       <p>Visualização de dados</p>
     </li>
+    <li>
+      <p>Modularização</p>
+    </li>
   </ul>
 </div>
 
