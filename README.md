@@ -13,7 +13,7 @@
 <br/>
 
 <div>
-  <h4> 📕 | Principais temáticas abordadas: <h4>
+  <h4> 📕 | Principais conceitos utilizados: <h4>
   <ul>
     <li>
       <p>Análise de dados</p>
