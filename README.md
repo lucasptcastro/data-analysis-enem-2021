@@ -5,9 +5,22 @@
 </div>
 
 
-<div align='left'>
+<div align='center'>
   <br/>
   <br/>
   <br/>
-  <p> Sistema que permite ter uma visão detalhada de dados resgatados do Enem</p>
+  <p> Sistema que permite ter uma visão detalhada de dados resgatados do Enem </p>
 </div>
+
+<div>
+  <h4> 📕 | Principais temáticas abordadas: <h4>
+  <ul>
+    <li>
+      <p>Análise de dados</p>
+    </li>
+    <li>
+      <p>Visualização de dados</p>
+    </li>
+  </ul>
+</div>
+
