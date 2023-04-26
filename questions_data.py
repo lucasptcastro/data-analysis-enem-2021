@@ -35,8 +35,16 @@ print(microdados_enem_selecionados.filter(items=['NU_INSCRICAO', 'NO_Q001']).gro
 # Mostra a contagem de dados socioeconômicos em relação a educação das mães
 print(microdados_enem_selecionados.filter(items=['NU_INSCRICAO', 'NO_Q002']).groupby('NO_Q002').count().sort_values(by='NU_INSCRICAO', ascending=False).head(10))
 
+# Mostra a média de notas da redação em baseada na educação dos pais
+print(microdados_enem_selecionados.filter(items=['NU_NOTA_REDACAO', 'NO_Q001']).groupby('NO_Q001').mean().sort_values(by="NU_NOTA_REDACAO", ascending=False).head(10))
 
+# Mostra a média de notas da redação em baseada na educação das mães
+print(microdados_enem_selecionados.filter(items=['NU_NOTA_REDACAO', 'NO_Q002']).groupby('NO_Q002').mean().sort_values(by="NU_NOTA_REDACAO", ascending=False).head(10))
 
+# Gráfico para mostrar o desenvolvimento dos dados
+q002Redacao = microdados_enem_selecionados.filter(items=['NU_NOTA_REDACAO', 'NO_Q002']).groupby('NO_Q002').mean().sort_values(by="NU_NOTA_REDACAO", ascending=False)
+q002Redacao.plot()
+plt.show()
 
 
 
