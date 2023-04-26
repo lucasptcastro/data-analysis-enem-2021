@@ -1,4 +1,11 @@
+# VSCODE
 .venv
 __pycache__
-dados/
+
 .env
+
+# PLANILHAS
+dados/
+
+# TESTES
+teste.py
